@@ -2,7 +2,7 @@ import os
 import cohere
 from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
-from langchain_community.chains import ConversationalRetrievalChain
+from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 
 GROQ_KEY = "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"
